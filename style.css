@@ -46,7 +46,19 @@ text-align:center;
 background:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center/cover;
 padding-top:80px;
 }
+<section class="fade-in">
+<h2>Featured Listings</h2>
 
+<div class="gallery">
+<img src="photo1.jpg" alt="Plot 1">
+<img src="photo2.jpg" alt="Plot 2">
+<img src="photo3.jpg" alt="Plot 3">
+</div>
+
+<a href="jadhav-vilas.html" class="btn">
+View All Details
+</a>
+</section>
 .hero h1 {
 font-size:50px;
 }
@@ -148,4 +160,17 @@ resize:none;
 form input:focus, form textarea:focus {
 outline:none;
 box-shadow:0 0 10px gold;
+}
+.call-btn {
+position: fixed;
+bottom: 20px;
+left: 20px;
+background: red;
+color: white;
+font-size: 26px;
+padding: 15px 18px;
+border-radius: 50%;
+text-decoration: none;
+box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+z-index:1000;
 }
