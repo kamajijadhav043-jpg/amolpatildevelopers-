@@ -5,11 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Booking Confirmed | Amol Patil Developers</title>
 <link rel="stylesheet" href="style.css">
-
-<!-- Auto Redirect After 5 Seconds -->
-<meta http-equiv="refresh" content="5;url=index.html">
-
 </head>
+
 <body>
 
 <section style="padding-top:120px; text-align:center;">
@@ -18,13 +15,19 @@
 <p>Our team will contact you shortly.</p>
 
 <p style="margin-top:20px;">
-You will be redirected to Home Page in 5 seconds...
+Redirecting to Home Page in 5 seconds...
 </p>
 
 <br>
 
-<a href="index.html" class="btn">Go to Home Now</a>
+<a href="./index.html" class="btn">Go to Home Now</a>
 </section>
+
+<script>
+setTimeout(function(){
+    window.location.href = "./index.html";
+}, 5000);
+</script>
 
 </body>
 </html>
