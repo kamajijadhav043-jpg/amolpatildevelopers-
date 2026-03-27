@@ -349,3 +349,11 @@ h1, h2 {
   color:gold;
   letter-spacing:1px;
 }
+.btn{
+  background:linear-gradient(45deg, gold, orange);
+  border:none;
+}
+
+.btn:hover{
+  transform:scale(1.08);
+}
