@@ -75,10 +75,16 @@
       <p>Premium quality sand for construction work.</p>
     </div>
 
-    <div>
-      <h3>Cement</h3>
-      <p>All major brands available at best price.</p>
-    </div>
+  <div class="material-box" onclick="toggleCement()">
+  <h3>Cement</h3>
+  <p>All major brands available at best price.</p>
+</div>
+
+<div id="cementDetails" class="cement-details">
+  <img src="acc.jpg">
+  <img src="ultratech.jpg">
+  <img src="chettinad.jpg">
+</div>
 
     <div>
       <h3>Gajali (Gravel)</h3>
@@ -157,6 +163,16 @@ const observer = new IntersectionObserver(entries => {
 });
 
 faders.forEach(el => observer.observe(el));
+<script>
+function toggleCement(){
+  const box = document.getElementById("cementDetails");
+
+  if(box.style.display === "block"){
+    box.style.display = "none";
+  } else {
+    box.style.display = "block";
+  }
+}
 </script>
 </body>
 </html>
