@@ -121,18 +121,15 @@
 <script>
 const faders = document.querySelectorAll('.fade-in');
 
-window.addEventListener('scroll', () => {
-  const triggerBottom = window.innerHeight * 0.85;
-
-  faders.forEach(section => {
-    const sectionTop = section.getBoundingClientRect().top;
-
-    if(sectionTop < triggerBottom){
-      section.classList.add('show');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('show');
     }
   });
 });
-</script>
 
+faders.forEach(el => observer.observe(el));
+</script>
 </body>
 </html>
