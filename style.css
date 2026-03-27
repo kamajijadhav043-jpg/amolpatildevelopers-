@@ -345,3 +345,7 @@ nav{
   background:rgba(0,0,0,0.6);
   backdrop-filter:blur(10px);
 }
+h1, h2 {
+  color:gold;
+  letter-spacing:1px;
+}
