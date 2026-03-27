@@ -189,3 +189,32 @@ form input:focus, form textarea:focus {
   outline:none;
   box-shadow:0 0 10px gold;
 }
+@media(max-width:768px){
+
+  nav{
+    flex-direction:column;
+    padding:15px;
+  }
+
+  .nav-links{
+    margin-top:10px;
+  }
+
+  .nav-links a{
+    display:block;
+    margin:10px 0;
+  }
+
+  .hero h1{
+    font-size:30px;
+  }
+
+  .hero p{
+    font-size:14px;
+  }
+
+  section{
+    padding:80px 15px;
+  }
+
+}
