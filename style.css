@@ -218,3 +218,19 @@ form input:focus, form textarea:focus {
   }
 
 }
+/* ===== PREMIUM ANIMATIONS ===== */
+
+.btn{
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.05);
+  box-shadow:0 0 15px gold;
+}
+
+/* NAVBAR SCROLL EFFECT */
+nav.scrolled{
+  background:#111;
+  box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
