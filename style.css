@@ -140,9 +140,10 @@ section {
   transition:0.3s;
 }
 
-.trust-grid div:hover {
+.trust-grid > div:hover {
   transform:translateY(-5px);
   box-shadow:0 0 15px rgba(255,215,0,0.3);
+}
 }
 
 /* MATERIAL CLICK */
@@ -158,17 +159,21 @@ section {
 /* CEMENT DETAILS */
 .cement-details{
   display:none;
-  margin-top:20px;
+  margin-top:15px;
 }
 
 .cement-details.show{
   display:flex;
-  flex-wrap:wrap;
-  gap:15px;
+  justify-content:center;
+  gap:10px;
 }
 
 .cement-details img{
-  width:200px;
+  width:120px;
+  height:120px;
+  object-fit:contain;
+  background:#fff;
+  padding:10px;
   border-radius:10px;
 }
 
