@@ -144,7 +144,6 @@ section {
   transform:translateY(-5px);
   box-shadow:0 0 15px rgba(255,215,0,0.3);
 }
-}
 
 /* MATERIAL CLICK */
 .material-box{
@@ -166,6 +165,7 @@ section {
   display:flex;
   justify-content:center;
   gap:10px;
+  flex-wrap:wrap;
 }
 
 .cement-details img{
@@ -303,12 +303,14 @@ nav.scrolled{
 #materials p{
   margin-top:10px;
 }
+
 /* SERVICE GRID */
 .service-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
   gap:25px;
   margin-top:40px;
+  padding:20px;
 }
 
 /* SERVICE BOX */
@@ -317,6 +319,7 @@ nav.scrolled{
   border-radius:15px;
   overflow:hidden;
   transition:0.3s;
+  text-align:center;
 }
 
 .service-box img{
