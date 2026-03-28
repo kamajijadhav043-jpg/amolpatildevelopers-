@@ -1,110 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Land Development Services | Amol Patil Developers</title>
-
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<header>
-  <nav>
-    <h2 class="logo">AmolPatil</h2>
-
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
-
-  <div class="hero">
-    <div class="hero-content">
-      <h1>We Develop & Sell Your Land</h1>
-      <p>Maximum Profit • Minimum Commission • Full Support</p>
-    </div>
-  </div>
-</header>
-
 <section id="services" class="fade-in">
   <h2>Our Development Services</h2>
 
-  <div class="trust-grid">
+  <div class="service-grid">
 
-    <div>
+    <div class="service-box">
+      <img src="layout.jpg">
       <h3>Layout Planning</h3>
-      <p>Complete plotting and layout development.</p>
+      <p>Professional plotting and layout design.</p>
     </div>
 
-    <div>
+    <div class="service-box">
+      <img src="road.jpg">
       <h3>Road & Drainage</h3>
-      <p>Proper roads, nalya and drainage system.</p>
+      <p>Proper roads and nalya system.</p>
     </div>
 
-    <div>
+    <div class="service-box">
+      <img src="underground.jpg">
       <h3>Underground Utilities</h3>
-      <p>Electricity and water connections underground.</p>
+      <p>Electricity & water pipelines underground.</p>
     </div>
 
-    <div>
+    <div class="service-box">
+      <img src="water.jpg">
       <h3>Water Facility</h3>
-      <p>Separate water connection for every 5 houses.</p>
+      <p>Water connection for every plot.</p>
     </div>
 
-    <div>
-      <h3>Kids Play Area</h3>
-      <p>High-quality children play zone.</p>
+    <div class="service-box">
+      <img src="playzone.jpg">
+      <h3>Kids Play Zone</h3>
+      <p>Safe and modern play area.</p>
     </div>
 
-    <div>
+    <div class="service-box">
+      <img src="garden.jpg">
       <h3>Green Landscaping</h3>
-      <p>Trees, flowers and garden development.</p>
+      <p>Plants, trees and gardens.</p>
     </div>
 
-    <div>
+    <div class="service-box">
+      <img src="ground.jpg">
       <h3>Ground Development</h3>
-      <p>Open space and ground facilities.</p>
+      <p>Open space and ground area.</p>
     </div>
 
-    <div>
+    <div class="service-box">
+      <img src="sale.jpg">
       <h3>Plot Sale Support</h3>
-      <p>We help you sell plots at best price.</p>
+      <p>We help sell your plots at best price.</p>
     </div>
 
   </div>
 </section>
-
-<section id="contact" class="fade-in">
-  <h2>Get Your Land Developed Today</h2>
-
-  <p>📞 Call: 7057777083 7030971315</p>
-
-  <a href="https://wa.me/917030971315?text=I want to develop my land"
-  class="btn" target="_blank">
-  Contact on WhatsApp
-  </a>
-</section>
-
-<footer>
-  <p>© 2026 Amol Patil Developers</p>
-</footer>
-
-<script>
-const faders = document.querySelectorAll('.fade-in');
-
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.classList.add('show');
-    }
-  });
-});
-
-faders.forEach(el => observer.observe(el));
-</script>
-
-</body>
-</html>
